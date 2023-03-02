@@ -12,8 +12,4 @@ const getUser = id => {
     return users.find(user => user.id === id)
 }
 
-
-// test
-// console.log(getUser(3));
-
-module.exports = {getUsers , getUser};
+module.exports = {getUsers , getUser, users};
